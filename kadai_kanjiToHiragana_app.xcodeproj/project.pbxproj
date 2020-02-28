@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851A7EDE2408C78F00042701 /* ConvertedTextView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851A7EDD2408C78F00042701 /* ConvertedTextView.storyboard */; };
 		859754FE2407ADFC003356DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859754FD2407ADFC003356DF /* AppDelegate.swift */; };
 		859755002407ADFC003356DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859754FF2407ADFC003356DF /* SceneDelegate.swift */; };
 		859755022407ADFC003356DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859755012407ADFC003356DF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		851A7EDD2408C78F00042701 /* ConvertedTextView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConvertedTextView.storyboard; sourceTree = "<group>"; };
 		859754FA2407ADFC003356DF /* kadai_kanjiToHiragana_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kadai_kanjiToHiragana_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859754FD2407ADFC003356DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		859754FF2407ADFC003356DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				859755062407AE00003356DF /* Assets.xcassets */,
 				859755082407AE00003356DF /* LaunchScreen.storyboard */,
 				8597550B2407AE00003356DF /* Info.plist */,
+				851A7EDD2408C78F00042701 /* ConvertedTextView.storyboard */,
 			);
 			path = kadai_kanjiToHiragana_app;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8597550A2407AE00003356DF /* LaunchScreen.storyboard in Resources */,
+				851A7EDE2408C78F00042701 /* ConvertedTextView.storyboard in Resources */,
 				859755072407AE00003356DF /* Assets.xcassets in Resources */,
 				859755052407ADFC003356DF /* Main.storyboard in Resources */,
 			);
