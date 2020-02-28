@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Loaf
 
 class ConvertedTextViewController: UIViewController {
     
@@ -20,10 +21,23 @@ class ConvertedTextViewController: UIViewController {
         convertedTextLabel.text = convertedText
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(false)
+        
+        showLoaf()
+    }
+    
     @IBAction func againButton(_ sender: Any) {
         
         dismiss(animated: true, completion: nil)
     }
-    
+
 }
 
+private extension ConvertedTextViewController {
+    
+    func showLoaf(){
+        let message = "文章の変換に成功しました！"
+        Loaf(message, state: .success, location: .top, presentingDirection: .vertical, dismissingDirection: .vertical, sender: self).show()
+    }
+}

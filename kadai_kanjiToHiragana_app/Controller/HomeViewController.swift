@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Loaf
 
 class HomeViewController: UIViewController {
     
@@ -31,6 +32,8 @@ class HomeViewController: UIViewController {
     
     
     @IBAction func convertButton(_ sender: Any) {
+        
+        validateText()
         
         convertText(convertTextForApi: convertTextField.text!)
     }
@@ -76,6 +79,28 @@ private extension HomeViewController {
         }
         
         task.resume()
+    }
+    
+    func validateText(){
+        
+        //空文字を削除
+        convertTextField.text? = trimEmpty(string: self.convertTextField.text!)
+        
+        //入力されていなかったら、エラーアラート表示。
+        if convertTextField.text?.isEmpty == true {
+            
+            showLoaf()
+        }
+    }
+    
+    func trimEmpty(string: String) -> String{
+        
+        return string.trimmingCharacters(in: .whitespaces)
+    }
+    
+    func showLoaf(){
+        let message = "文章を入力して下さい！"
+        Loaf(message, state: .error, location: .top, presentingDirection: .vertical, dismissingDirection: .vertical, sender: self).show()
     }
 }
 
