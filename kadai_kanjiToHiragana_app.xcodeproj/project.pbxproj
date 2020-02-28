@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851A7EDE2408C78F00042701 /* ConvertedTextView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851A7EDD2408C78F00042701 /* ConvertedTextView.storyboard */; };
+		851A7EE02408CBC800042701 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851A7EDF2408CBC800042701 /* HomeViewController.swift */; };
+		851A7EE22408CC9B00042701 /* ConvertedTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851A7EE12408CC9B00042701 /* ConvertedTextViewController.swift */; };
+		851A7EE42408CCF500042701 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851A7EE32408CCF500042701 /* PostData.swift */; };
+		851A7EE62408CD0E00042701 /* Rubi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851A7EE52408CD0E00042701 /* Rubi.swift */; };
 		859754FE2407ADFC003356DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859754FD2407ADFC003356DF /* AppDelegate.swift */; };
 		859755002407ADFC003356DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859754FF2407ADFC003356DF /* SceneDelegate.swift */; };
-		859755022407ADFC003356DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859755012407ADFC003356DF /* ViewController.swift */; };
 		859755052407ADFC003356DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859755032407ADFC003356DF /* Main.storyboard */; };
 		859755072407AE00003356DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859755062407AE00003356DF /* Assets.xcassets */; };
 		8597550A2407AE00003356DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859755082407AE00003356DF /* LaunchScreen.storyboard */; };
+		85FF22202408EDE400E4E14F /* BackGroundAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 85FF221F2408EDE400E4E14F /* BackGroundAnimation.json */; };
+		85FF22222408F17D00E4E14F /* BackGround.json in Resources */ = {isa = PBXBuildFile; fileRef = 85FF22212408F17D00E4E14F /* BackGround.json */; };
+		85FF22242408F9E200E4E14F /* ok.json in Resources */ = {isa = PBXBuildFile; fileRef = 85FF22232408F9E200E4E14F /* ok.json */; };
+		C3F48AE1C9AD9BC1C68CE71F /* Pods_kadai_kanjiToHiragana_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA05A5F623C4AEAD0E612B5 /* Pods_kadai_kanjiToHiragana_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AA05A5F623C4AEAD0E612B5 /* Pods_kadai_kanjiToHiragana_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kadai_kanjiToHiragana_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		851A7EDD2408C78F00042701 /* ConvertedTextView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConvertedTextView.storyboard; sourceTree = "<group>"; };
+		851A7EDF2408CBC800042701 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		851A7EE12408CC9B00042701 /* ConvertedTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertedTextViewController.swift; sourceTree = "<group>"; };
+		851A7EE32408CCF500042701 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		851A7EE52408CD0E00042701 /* Rubi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rubi.swift; sourceTree = "<group>"; };
 		859754FA2407ADFC003356DF /* kadai_kanjiToHiragana_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kadai_kanjiToHiragana_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859754FD2407ADFC003356DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		859754FF2407ADFC003356DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		859755012407ADFC003356DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		859755042407ADFC003356DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		859755062407AE00003356DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		859755092407AE00003356DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8597550B2407AE00003356DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85FF221F2408EDE400E4E14F /* BackGroundAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BackGroundAnimation.json; sourceTree = "<group>"; };
+		85FF22212408F17D00E4E14F /* BackGround.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BackGround.json; sourceTree = "<group>"; };
+		85FF22232408F9E200E4E14F /* ok.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ok.json; sourceTree = "<group>"; };
+		D1F34F2D9805AE5ED7706733 /* Pods-kadai_kanjiToHiragana_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kadai_kanjiToHiragana_app.debug.xcconfig"; path = "Target Support Files/Pods-kadai_kanjiToHiragana_app/Pods-kadai_kanjiToHiragana_app.debug.xcconfig"; sourceTree = "<group>"; };
+		E97C4D38FC6A7CB2C1886914 /* Pods-kadai_kanjiToHiragana_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kadai_kanjiToHiragana_app.release.xcconfig"; path = "Target Support Files/Pods-kadai_kanjiToHiragana_app/Pods-kadai_kanjiToHiragana_app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F48AE1C9AD9BC1C68CE71F /* Pods_kadai_kanjiToHiragana_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		521858D27B4B73DCC894866B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1F34F2D9805AE5ED7706733 /* Pods-kadai_kanjiToHiragana_app.debug.xcconfig */,
+				E97C4D38FC6A7CB2C1886914 /* Pods-kadai_kanjiToHiragana_app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7CE550D6A6AF35F530F1E5DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AA05A5F623C4AEAD0E612B5 /* Pods_kadai_kanjiToHiragana_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		851A7EE72408CD2600042701 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				851A7EE32408CCF500042701 /* PostData.swift */,
+				851A7EE52408CD0E00042701 /* Rubi.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		859754F12407ADFC003356DF = {
 			isa = PBXGroup;
 			children = (
 				859754FC2407ADFC003356DF /* kadai_kanjiToHiragana_app */,
 				859754FB2407ADFC003356DF /* Products */,
+				521858D27B4B73DCC894866B /* Pods */,
+				7CE550D6A6AF35F530F1E5DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,45 @@
 		859754FC2407ADFC003356DF /* kadai_kanjiToHiragana_app */ = {
 			isa = PBXGroup;
 			children = (
+				85FF221E2408EDD500E4E14F /* Animation */,
+				85F4A89E2408D302008A7082 /* Controller */,
+				85F4A89D2408D2F7008A7082 /* View */,
+				851A7EE72408CD2600042701 /* Model */,
 				859754FD2407ADFC003356DF /* AppDelegate.swift */,
 				859754FF2407ADFC003356DF /* SceneDelegate.swift */,
-				859755012407ADFC003356DF /* ViewController.swift */,
-				859755032407ADFC003356DF /* Main.storyboard */,
-				859755062407AE00003356DF /* Assets.xcassets */,
-				859755082407AE00003356DF /* LaunchScreen.storyboard */,
 				8597550B2407AE00003356DF /* Info.plist */,
 			);
 			path = kadai_kanjiToHiragana_app;
+			sourceTree = "<group>";
+		};
+		85F4A89D2408D2F7008A7082 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				859755032407ADFC003356DF /* Main.storyboard */,
+				859755062407AE00003356DF /* Assets.xcassets */,
+				859755082407AE00003356DF /* LaunchScreen.storyboard */,
+				851A7EDD2408C78F00042701 /* ConvertedTextView.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85F4A89E2408D302008A7082 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				851A7EDF2408CBC800042701 /* HomeViewController.swift */,
+				851A7EE12408CC9B00042701 /* ConvertedTextViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		85FF221E2408EDD500E4E14F /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				85FF22212408F17D00E4E14F /* BackGround.json */,
+				85FF221F2408EDE400E4E14F /* BackGroundAnimation.json */,
+				85FF22232408F9E200E4E14F /* ok.json */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8597550E2407AE00003356DF /* Build configuration list for PBXNativeTarget "kadai_kanjiToHiragana_app" */;
 			buildPhases = (
+				D77C2409CC396F0C3281A0FF /* [CP] Check Pods Manifest.lock */,
 				859754F62407ADFC003356DF /* Sources */,
 				859754F72407ADFC003356DF /* Frameworks */,
 				859754F82407ADFC003356DF /* Resources */,
+				CE65DF48C2F1EA55043C069C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +205,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				8597550A2407AE00003356DF /* LaunchScreen.storyboard in Resources */,
+				85FF22202408EDE400E4E14F /* BackGroundAnimation.json in Resources */,
+				85FF22242408F9E200E4E14F /* ok.json in Resources */,
+				851A7EDE2408C78F00042701 /* ConvertedTextView.storyboard in Resources */,
 				859755072407AE00003356DF /* Assets.xcassets in Resources */,
 				859755052407ADFC003356DF /* Main.storyboard in Resources */,
+				85FF22222408F17D00E4E14F /* BackGround.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE65DF48C2F1EA55043C069C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kadai_kanjiToHiragana_app/Pods-kadai_kanjiToHiragana_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kadai_kanjiToHiragana_app/Pods-kadai_kanjiToHiragana_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kadai_kanjiToHiragana_app/Pods-kadai_kanjiToHiragana_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D77C2409CC396F0C3281A0FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kadai_kanjiToHiragana_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		859754F62407ADFC003356DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				859755022407ADFC003356DF /* ViewController.swift in Sources */,
+				851A7EE42408CCF500042701 /* PostData.swift in Sources */,
+				851A7EE62408CD0E00042701 /* Rubi.swift in Sources */,
 				859754FE2407ADFC003356DF /* AppDelegate.swift in Sources */,
 				859755002407ADFC003356DF /* SceneDelegate.swift in Sources */,
+				851A7EE22408CC9B00042701 /* ConvertedTextViewController.swift in Sources */,
+				851A7EE02408CBC800042701 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +410,7 @@
 		};
 		8597550F2407AE00003356DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F34F2D9805AE5ED7706733 /* Pods-kadai_kanjiToHiragana_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +429,7 @@
 		};
 		859755102407AE00003356DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97C4D38FC6A7CB2C1886914 /* Pods-kadai_kanjiToHiragana_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

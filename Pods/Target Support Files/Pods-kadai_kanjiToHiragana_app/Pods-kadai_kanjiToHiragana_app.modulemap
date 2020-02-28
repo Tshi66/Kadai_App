@@ -1,0 +1,6 @@
+framework module Pods_kadai_kanjiToHiragana_app {
+  umbrella header "Pods-kadai_kanjiToHiragana_app-umbrella.h"
+
+  export *
+  module * { export * }
+}
