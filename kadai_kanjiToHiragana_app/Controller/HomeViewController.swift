@@ -38,7 +38,6 @@ class HomeViewController: UIViewController {
     @IBAction func convertButton(_ sender: Any) {
         
         validateText()
-//        showCheckAnimation()
     }
 }
 
@@ -141,6 +140,9 @@ private extension HomeViewController {
 extension HomeViewController: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        validateText()
+        
         textField.resignFirstResponder()
         return true
     }
